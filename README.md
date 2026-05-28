@@ -1,73 +1,85 @@
-# React + TypeScript + Vite
+> *Minimal online drawing app for quick sketches, ideas, and creativity.*
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
+  <img src="./public/readme/draw.jpeg" alt="Sketchli Preview" />
+</div>
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Sketchli is a clean and lightweight drawing app where you can sketch, draw shapes, write text, and create ideas directly in your browser.
 
-## React Compiler
+Built for simplicity, speed, and a smooth drawing experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+*  Freehand drawing
+*  Shapes & lines
+*  Pencil & eraser tools
+*  Text support
+*  Responsive canvas
+*  Fast and lightweight
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+##  Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Next.js
+* TypeScript
+* Tailwind CSS
+* HTML5 Canvas
+
+---
+
+##  Getting Started
+
+Clone the repository:
+
+```bash id="omgtd3"
+git clone https://github.com/yourusername/sketchli.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Go to the project folder:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash id="1htf9r"
+cd sketchli
 ```
+
+Install dependencies:
+
+```bash id="n2mox5"
+npm install
+```
+
+Run the development server:
+
+```bash id="7c9aok"
+npm run dev
+```
+
+Open:
+
+```bash id="aew2ca"
+http://localhost:3000
+```
+
+---
+
+##  How To Use
+
+1. Visit the live site: [sketchli](https://sketchli-draw.vercel.app/) 
+2. Select a drawing tool
+3. Draw on the canvas
+4. Add shapes, text
+
+---
+
+##  Built By
+
+* GitHub: [@akshat-jp](https://github.com/akshat-jp) 
+* Twitter/X: [@akshat_jp](https://x.com/akshat_jp) 
+
+---
+
+> ***DO THE HARD WORK SPECIALLY WHEN YOU DON'T FEEL LIKE IT ❤️***
