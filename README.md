@@ -1,7 +1,7 @@
 > *Minimal online drawing app for quick sketches, ideas, and creativity.*
 
 <div align="center">
-  <img src="./public/readme/draw.jpeg" alt="Sketchli Preview" />
+  <img src="./public/readme/hero.jpeg" alt="Sketchli Preview" />
 </div>
 
 <br />
